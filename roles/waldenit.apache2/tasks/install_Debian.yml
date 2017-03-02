@@ -1,0 +1,4 @@
+- name: APACHE2 | Installing APACHE2
+  apt:
+    pkg: libapache2-mod-fastcgi
+    state: latest

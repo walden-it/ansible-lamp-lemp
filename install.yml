@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+
+  tasks:
+    - include_vars: "group_vars/vhosts.yml"
+
+  roles:
+   # - common
+   - phpenv
+   - waldenit.nginx 
+   #- waldenit.mysql
+   - waldenit.apache2
